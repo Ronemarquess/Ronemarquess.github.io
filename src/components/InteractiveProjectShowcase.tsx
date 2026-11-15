@@ -394,15 +394,6 @@ export function InteractiveProjectShowcase() {
         <a href="https://wa.me/5579981254140" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">
           WhatsApp
         </a>
-        <a href="https://github.com/Ronemarquess" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">
-          GitHub
-        </a>
-        <a href="https://instagram.com/devronem" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">
-          @devronem
-        </a>
-        <a href="https://instagram.com/inoveitecnologias" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-white">
-          @inoveitecnologias
-        </a>
       </div>
     </section>
   )

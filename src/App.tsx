@@ -282,30 +282,6 @@ export function App() {
             >
               WhatsApp
             </a>
-            <a
-              href="https://github.com/Ronemarquess"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-white"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://instagram.com/devronem"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-white"
-            >
-              @devronem
-            </a>
-            <a
-              href="https://instagram.com/inoveitecnologias"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-white"
-            >
-              @inoveitecnologias
-            </a>
           </div>
         </div>
       </footer>
