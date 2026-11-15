@@ -1,32 +1,23 @@
-# React + TypeScript + Vite
+# Rone Marques
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfólio pessoal de Rone Marques, desenvolvido com React, TypeScript, Vite e Tailwind CSS.
 
-Currently, two official plugins are available:
+- **Site:** [ronemarquess.github.io](https://ronemarquess.github.io/)
+- **Repositório:** [github.com/Ronemarquess/Ronemarquess.github.io](https://github.com/Ronemarquess/Ronemarquess.github.io)
+- **Commits:** [Histórico de commits](https://github.com/Ronemarquess/Ronemarquess.github.io/commits/main)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Desenvolvimento local
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm ci
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Para validar e gerar a versão de produção:
+
+```bash
+npm run lint
+npm run build
+```
+
+O deploy para GitHub Pages é realizado pelo GitHub Actions ao enviar alterações para a branch `main`.

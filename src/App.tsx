@@ -27,7 +27,7 @@ const stackGroups = [
   },
 ]
 
-function App() {
+export function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100">
       <header className="sticky top-0 z-50 border-b border-zinc-800/80 bg-zinc-950/85 backdrop-blur-md">
